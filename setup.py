@@ -1,29 +1,25 @@
-import pathlib
+
 from setuptools import setup
 
-# The directory containing this file
-HERE = pathlib.Path(__file__).parent
-
-# The text of the README file
-README = (HERE / "README.md").read_text()
-
-# This call to setup() does all the work
 setup(
-    name="PyMoments",
-    version="1.0.0",
-    description="Statistical moments in Python.",
-    long_description=README,
-    long_description_content_type="text/markdown",
-    url="",
-    author="Kevin D. Smith",
-    author_email="kevinsmith@ucsb.edu",
-    license="MIT",
+    name='PyMoments',
+    version='1.0.0',
+    description='Unbiased estimators for multivariate statistical moments',
+    url='https://github.com/KevinDalySmith/PyMoments',
+    author='Kevin D. Smith',
+    author_email='kevinsmith@ucsb.edu',
+    license='MIT',
     classifiers=[
+        "Development Status :: 3 - Alpha",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
+        "Intended Audience :: Science/Research",
+        "Topic :: Scientific/Engineering :: Mathematics"
     ],
-    packages=["reader"],
-    include_package_data=True,
-    install_requires=["numpy"]
+    keywords='statistics',
+    packages=['PyMoments', 'tests'],
+    package_data={'tests': ['data/*.csv']},
+    install_requires=['numpy'],
+    test_suite='tests'
 )
