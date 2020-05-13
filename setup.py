@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='PyMoments',
-    version='1.0.0',
+    version='1.0.1',
     description='Unbiased estimators for multivariate statistical moments',
     url='https://github.com/KevinDalySmith/PyMoments',
     author='Kevin D. Smith',
