@@ -8,10 +8,9 @@ setup(
     url='https://github.com/KevinDalySmith/PyMoments',
     author='Kevin D. Smith',
     author_email='kevinsmith@ucsb.edu',
-    license='MIT',
+    license='CC BY-NC 4.0',
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
         "Intended Audience :: Science/Research",
