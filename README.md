@@ -1,7 +1,7 @@
 # PyMoments
 
 PyMoments is a toolkit for unbiased estimation of multivariate statistical moments. 
-In the current version (1.0.0), only multivariate <i>k</i>-statistics are implemented,
+In the current version (1.0), only multivariate <i>k</i>-statistics are implemented,
 allowing for the unbiased estimation of cumulants. 
 An implementation of <i>h</i>-statistics (for unbiased estimation of central moments) is 
 planned for a future release.
